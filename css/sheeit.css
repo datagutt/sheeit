@@ -1,0 +1,38 @@
+body, html, .container, .hero {
+  height: 100%;
+}
+
+.vjs-default-skin { color: #ffffff; }
+.vjs-default-skin .vjs-play-progress,
+.vjs-default-skin .vjs-volume-level { background-color: #ffffff }
+.vjs-default-skin .vjs-control-bar,
+.vjs-default-skin .vjs-big-play-button { background: rgba(0,0,0,0) }
+.vjs-default-skin .vjs-slider { background: rgba(0,0,0,0) }
+.vjs-default-skin .vjs-control-bar { font-size: 68% }
+
+#sheeit {
+	width: 100% !important;
+	height: auto !important;
+}
+#sheeit:after {
+	content: '.';
+	display: block;
+	position: relative;
+	padding: 75% 0 0 0; /* (height/width)*100%, eg. 56.25% for 16:9 75% for 4:3 */
+	margin: 0 0 0 -100%;
+	visibility: hidden;
+	height: 0; 
+}
+#sheeit .vjs-poster {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #000;
+}
+#sheeit_youtube_api {
+	z-index: 9;
+}
+body div.container {
+}
