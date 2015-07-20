@@ -46,7 +46,7 @@
 			<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
 		</video>
 		<h1 class="h00 caps m0 regular">Sheeeeeeeit</h1>
-		<p class="h4 gray caps m0 italic">You think I'm gonna be a scapegoat for the whole damn machine?</p>
+		<p class="h4 gray caps m0 italic">You think I'm gonna be the scapegoat for the whole damn machine?</p>
 	</div>
 	<footer class="table-cell absolute bottom-0 right-0 gray"><a href="http://datagutt1.com" class="btn">Made by datagutt</a></footer>
 </div>
