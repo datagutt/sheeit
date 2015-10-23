@@ -1,5 +1,5 @@
 body, html, .container, .hero {
-  height: 100%;
+	height: 100%;
 }
 
 .vjs-default-skin { color: #ffffff; }
@@ -8,31 +8,21 @@ body, html, .container, .hero {
 .vjs-default-skin .vjs-control-bar,
 .vjs-default-skin .vjs-big-play-button { background: rgba(0,0,0,0) }
 .vjs-default-skin .vjs-slider { background: rgba(0,0,0,0) }
-.vjs-default-skin .vjs-control-bar { font-size: 68% }
 
-#sheeit {
+.vjs-youtube { 
+	position: relative; 
+	overflow: hidden; 
+}
+
+.vjs-youtube iframe { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+}
+
+.vjs-youtube > div:first-child {
+	height: 100% !important;
+	position: absolute !important;
+	top: 0 !important;
 	width: 100% !important;
-	height: auto !important;
-}
-#sheeit:after {
-	content: '.';
-	display: block;
-	position: relative;
-	padding: 75% 0 0 0; /* (height/width)*100%, eg. 56.25% for 16:9 75% for 4:3 */
-	margin: 0 0 0 -100%;
-	visibility: hidden;
-	height: 0; 
-}
-#sheeit .vjs-poster {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	background-color: #000;
-}
-#sheeit_youtube_api {
-	z-index: 9;
-}
-body div.container {
 }
